@@ -1,4 +1,4 @@
-#Gemini Chatbot Chrome Extension
+# Gemini Chatbot Chrome Extension
 
 Welcome to the **DSA Gemini Chatbot Chrome Extension**, a sophisticated browser extension leveraging the power of the Gemini API to provide an interactive Data Structures and Algorithms (DSA) assistance tool. This project is designed to assist developers, students, and enthusiasts by offering real-time explanations, code examples, and problem-solving support directly within the Chrome browser. Built with modern web technologies, this extension includes advanced features like a draggable interface, persistent chat history, and code copying functionality.
 
