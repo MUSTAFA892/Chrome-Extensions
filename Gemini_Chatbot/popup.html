@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-white font-sans h-screen">
+  <div class="container p-4 flex flex-col h-full" id="mainContainer">
+    <div class="flex justify-between items-center mb-4">
+      <h1 class="text-xl font-bold">Chatbot</h1>
+      <button id="closeBtn" class="text-red-500 hover:text-red-700 px-2">close</button>
+    </div>
+    <textarea id="userInput" class="w-full h-24 bg-gray-800 text-white border border-gray-600 rounded p-2 resize-none mb-4 focus:outline-none" placeholder="Ask Gemini..."></textarea>
+    <button id="sendBtn" class="bg-gray-700 text-white px-4 py-2 rounded font-semibold mb-4">Send</button>
+    <div id="responseOutput" class="response-box flex-1 overflow-y-auto bg-black border-l-2 border-gray-600 p-4 rounded text-white"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
