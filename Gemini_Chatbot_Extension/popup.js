@@ -4,7 +4,7 @@ const input = document.getElementById("userInput");
 const mainContainer = document.getElementById("mainContainer");
 const closeBtn = document.getElementById("closeBtn");
 
-const API_KEY = "Your-API-Key_Here";
+const API_KEY = "Your_API_Key_Here";
 const STORAGE_KEY = "chatHistory";
 
 let isDragging = false;
