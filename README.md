@@ -1,6 +1,6 @@
 # Chrome Extensions Repository
 
-Welcome to the **Chrome Extensions Repository**, a comprehensive hub for developing, testing, and maintaining Chrome browser extensions. This repository serves as a centralized location for multiple Chrome extensions, with a primary focus on the **DSA Gemini Chatbot** extension. Designed for developers, educators, and tech enthusiasts, this repo provides a robust framework for creating, customizing, and distributing extensions using Manifest V3. Below, you will find detailed instructions, project overviews, and guidelines to leverage this repository effectively.
+Welcome to the **Chrome Extensions Repository**, a comprehensive hub for developing, testing, and maintaining Chrome browser extensions. This repository serves as a centralized location for multiple Chrome extensions, with a primary focus on the **  Gemini Chatbot** extension. Designed for developers, educators, and tech enthusiasts, this repo provides a robust framework for creating, customizing, and distributing extensions using Manifest V3. Below, you will find detailed instructions, project overviews, and guidelines to leverage this repository effectively.
 
 ---
 
@@ -22,7 +22,7 @@ Welcome to the **Chrome Extensions Repository**, a comprehensive hub for develop
 
 ## Repository Overview
 
-This GitHub repository is dedicated to housing a collection of Chrome extensions, each designed to enhance browser functionality with unique features. The flagship project, **DSA Gemini Chatbot**, integrates AI-driven DSA assistance using the Gemini API. The repository is structured to support multiple extensions, with modular codebases, shared utilities, and comprehensive documentation. It adheres to Manifest V3 standards, ensuring compatibility with modern Chrome versions and compliance with Google's security policies.
+This GitHub repository is dedicated to housing a collection of Chrome extensions, each designed to enhance browser functionality with unique features. The flagship project, **  Gemini Chatbot**, integrates AI-driven   assistance using the Gemini API. The repository is structured to support multiple extensions, with modular codebases, shared utilities, and comprehensive documentation. It adheres to Manifest V3 standards, ensuring compatibility with modern Chrome versions and compliance with Google's security policies.
 
 The repository is intended for both individual developers and collaborative teams, offering a scalable environment for extension development, testing, and deployment.
 
@@ -30,14 +30,14 @@ The repository is intended for both individual developers and collaborative team
 
 ## Projects Included
 
-### 1. DSA Gemini Chatbot
-- **Description**: An interactive Chrome extension that provides DSA explanations, code examples, and problem-solving support via the Gemini API.
+### 1.   Gemini Chatbot
+- **Description**: An interactive Chrome extension that provides   explanations, code examples, and problem-solving support via the Gemini API.
 - **Features**:
   - Draggable popup interface.
   - Persistent chat history using `localStorage`.
   - Code formatting and copy functionality.
   - Enter key support with auto-clear.
-- **Directory**: `/dsa-gemini-chatbot/`
+- **Directory**: `/ -gemini-chatbot/`
 - **Status**: Active development.
 
 ### Future Projects
@@ -53,7 +53,7 @@ The repository is intended for both individual developers and collaborative team
 - Google Chrome browser (version 88+ recommended).
 - Node.js and npm (for potential build tools, though not required for this project).
 - Git for version control.
-- A Gemini API key (optional, for DSA Gemini Chatbot).
+- A Gemini API key (optional, for   Gemini Chatbot).
 
 ### Steps
 1. **Clone the Repository**:
@@ -63,12 +63,12 @@ The repository is intended for both individual developers and collaborative team
    ```
 
 2. **Navigate to Project**:
-   - For DSA Gemini Chatbot, enter the directory:
+   - For   Gemini Chatbot, enter the directory:
      ```bash
-     cd dsa-gemini-chatbot
+     cd  -gemini-chatbot
      ```
 
-3. **Configure API Key** (for DSA Gemini Chatbot):
+3. **Configure API Key** (for   Gemini Chatbot):
    - Open `popup.js` and set the `API_KEY`:
      ```javascript
      const API_KEY = "your-gemini-api-key-here";
@@ -82,7 +82,7 @@ The repository is intended for both individual developers and collaborative team
 
 ## Running Projects in Chrome Developer Mode
 
-To test and run the extensions (e.g., DSA Gemini Chatbot) in Chrome, follow these detailed steps:
+To test and run the extensions (e.g.,   Gemini Chatbot) in Chrome, follow these detailed steps:
 
 ### Step-by-Step Guide
 1. **Enable Developer Mode**:
@@ -91,12 +91,12 @@ To test and run the extensions (e.g., DSA Gemini Chatbot) in Chrome, follow thes
 
 2. **Load the Unpacked Extension**:
    - Click the "Load unpacked" button.
-   - Select the project directory (e.g., `/dsa-gemini-chatbot/`) from your cloned repository.
+   - Select the project directory (e.g., `/ -gemini-chatbot/`) from your cloned repository.
    - Chrome will load the extension, and its icon will appear in the toolbar.
 
 3. **Verify Functionality**:
    - Click the extension icon to open the popup.
-   - Enter a DSA query (e.g., "Explain merge sort") and press "Enter" to test.
+   - Enter a   query (e.g., "Explain merge sort") and press "Enter" to test.
    - Check the Chrome DevTools console (`right-click > Inspect > Console`) for errors.
 
 ### Troubleshooting Loading Issues
@@ -113,7 +113,7 @@ To test and run the extensions (e.g., DSA Gemini Chatbot) in Chrome, follow thes
 
 ### Branching Strategy
 - Use `main` for stable releases.
-- Create feature branches (e.g., `feature/dsa-chat-enhancement`) for new development.
+- Create feature branches (e.g., `feature/ -chat-enhancement`) for new development.
 - Submit pull requests for review.
 
 ### Commit Guidelines
